@@ -43,6 +43,8 @@ While a design mockup is given, you can take creative liberties to customize as 
 
 (Optional): It could prove valuable to have a section that displays the name and information for each signed in hacker. Since the number of signed in hackers could be in the hundreds, you'd want to use pagination to cycle through pages. If you opt not to use pagination, display the first ten hackers.
 
+[Design Mockup](./Front-End-Challenge-Mockup.png)
+
 ## Technologies
 
 You can use any technologies you’re comfortable with for this project as long as dependencies are explicitly specified and setup is minimal. Our team will be using ReactJS.
