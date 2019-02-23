@@ -1,4 +1,4 @@
-# CruzHacks 2020 Backend Development Challenge
+# CruzHacks 2020 Backend Engineering Team Coding Challenge
 
 In this exercise, we’re asking you to create a simple REST API with a technology of your choice. You are free to use any database: PostgreSQL, MySQL, MongoDB, etc.
 
@@ -26,4 +26,4 @@ Might return json similar to:
 
 Keep in mind this is an example for one endpoint, your completed program should have enough endpoints that allow for full CRUD functionality on the hacker object.
 
-Be sure to post your work to a github repo and email us the link at contact@cruzhacks.com when you are finished. The Github repo should include a readme with instructions on how to run your project.
+The Github repo should include a readme with instructions on how to run your project.
