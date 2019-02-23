@@ -1,4 +1,4 @@
-# CruzHacks Organiser Technical Challenges
+# CruzHacks Organizer Technical Challenges
 
 Thank you for putting forth your candidacy for the CruzHacks 2020 organizing team. We're excited by the possibility of working with you! Our team will go through applications after the March 8th deadline and notify you as soon as possible.
 
