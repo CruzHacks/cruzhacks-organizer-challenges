@@ -10,16 +10,16 @@ Your design challenge will be to create a hero image for the CruzHacks 2020 webs
 Essentially, this is the first thing potential hackers/sponsors would see when visiting the CruzHacks website. 
 
 ## Requirements 
-Here is an example of a hero we considered using for this year: [Hero Example](./hero-example.png)
+Here is an example of a hero we considered using for this year: [Hero Example](./design-assets/hero-example.png)
 
 Similarly, your hero should include:
  - Title: CruzHacks 2020
  - Subtitle: Create something that makes a difference
  - The CruzHacks logo (you can use any of the provided versions or recolor it if you wish) 
-     - [White Logo SVG](./white-logo.svg)
-     - [Gradient Logo SVG](./gradient-logo.svg)
-     - [White Logo PNG](./white-logo.png)
-     - [Gradient Logo PNG](./gradient-logo.png)
+     - [White Logo SVG](./design-assets/white-logo.svg)
+     - [Gradient Logo SVG](./design-assets/gradient-logo.svg)
+     - [White Logo PNG](./design-assets/white-logo.png)
+     - [Gradient Logo PNG](./design-assets/gradient-logo.png)
  - Location and date (TBD - feel free to fill in this year's as a placeholder)
  - Some indication that applications open in December
 
