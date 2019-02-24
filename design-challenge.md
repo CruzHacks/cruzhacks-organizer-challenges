@@ -7,31 +7,32 @@ Your design challenge will be to create a hero image for the CruzHacks 2020 webs
 > the first visual element a visitor encounters on the site; it presents an 
 > overview of the site's most important content. 
 
-Esentially, this is the first thing potential hackers/sponsors would see when visiting the CruzHacks website. 
+Essentially, this is the first thing potential hackers/sponsors would see when visiting the CruzHacks website. 
 
 ## Requirements 
-Here is an example of a hero we considered using for this year: [Hero Mockup](./Design-Challenge-Mockup.png)
+Here is an example of a hero we considered using for this year: [Hero Example](./hero-example.png)
 
 Similarly, your hero should include:
  - Title: CruzHacks 2020
  - Subtitle: Create something that makes a difference
- - The CruzHacks logo (feel free to us any of the provided versions or recolor it if you wish) 
-     - [White Logo SVG](./Design-Challenge-Mockup.png)
-     - [Gradient Logo SVG](./Design-Challenge-Mockup.png)
-     - [White Logo PNG](./Design-Challenge-Mockup.png)
-     - [Gradient Logo PNG](./Design-Challenge-Mockup.png)
- - Location, Date (TBD feel free to fill in this year's as a placeholder)
+ - The CruzHacks logo (you can use any of the provided versions or recolor it if you wish) 
+     - [White Logo SVG](./white-logo.svg)
+     - [Gradient Logo SVG](./gradient-logo.svg)
+     - [White Logo PNG](./white-logo.png)
+     - [Gradient Logo PNG](./gradient-logo.png)
+ - Location and date (TBD - feel free to fill in this year's as a placeholder)
  - Some indication that applications open in December
- - Please use the dimensions 1152 x 700 for your design. 
+ - Please use the dimensions 1152 x 700 for your design
 
 We're looking for clean, eye catching designs that represent CruzHacks, technology, and innovation.
 
-For this challenge, feel free to follow your own design style, choose your own color palette, fonts, background color, etc. If you wish to use the 2019 color palette you are free to do so (#719AEB, #EBA471, #9782EA, #EB7187).
+For this challenge, feel free to follow your own design style, choose your own color palette, fonts, background color, etc. If you wish to use the 2019 color palette you are free to do so (#719AEB, #EBA471, #9782EA, #EB7187). We ask that you please do not copy designs already made for this year, and that you do not work from a template.
 
-We ask that you please do not copy designs already made for this year, and that you do not work from a template. Feel free to use outside graphics but please credit the source in your submission.
+## Submission
 
-Lastly, if you have a portfolio or any supplemental work you wish to include in your application, please include it in your email.
+- Your submission should be a PNG file size 1152px x 700px. 
+- Please credit any sources you used if you included outside graphics. 
+- If you have a portfolio or any supplemental work you wish to include in your application, please include it in your email.
 
-Thanks, and have fun!
-
+Thank you!
 
