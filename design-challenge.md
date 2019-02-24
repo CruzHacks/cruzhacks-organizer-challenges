@@ -22,7 +22,6 @@ Similarly, your hero should include:
      - [Gradient Logo PNG](./gradient-logo.png)
  - Location and date (TBD - feel free to fill in this year's as a placeholder)
  - Some indication that applications open in December
- - Please use the dimensions 1152 x 700 for your design
 
 We're looking for clean, eye catching designs that represent CruzHacks, technology, and innovation.
 
