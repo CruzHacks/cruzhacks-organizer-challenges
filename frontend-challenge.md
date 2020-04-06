@@ -4,7 +4,7 @@ Engineers work closely with our UX/UI designers to develop user interfaces that 
 
 
 In this scenario, you're tasked with developing a dashboard that hackers can use to view announcements & register for the hackathon. The designers have conjured a mockup [here](https://www.figma.com/file/pxkqgNnVvLCZrvBP6no7Jr/Cruzhacks-Frontend-Challenge?node-id=0%3A1).
-We don't need a pixel-perfect recreation of the mockup; rather, focus on delivering a seamless user experience!
+While a design mockup is given, you may take creative liberties as you see fit during this challenge. We don't need a pixel-perfect recreation of the mockup; rather, focus on delivering a seamless user experience! 
 
 
 ## Announcements 
@@ -25,11 +25,11 @@ You'll be retrieving data via HTTP GET requests to this endpoint. The endpoint f
   "count": 2,
   "results": [
     {
-      "datetime": "11/30/2019",
+      "datetime": "11/30/2019 08:16:28",
       "annoucement: "Check out our pre-hack workshops via Zoom!"
     },
     {
-      "datetime": "11/19/2019",
+      "datetime": "11/19/2019 14:15:31",
       "annoucement: "Hacker application now open! Scroll below."
     },
   ]
@@ -37,20 +37,17 @@ You'll be retrieving data via HTTP GET requests to this endpoint. The endpoint f
 ```
 
 ## Application Form
+The application form consists of three [conditionally-rendered](https://reactjs.org/docs/conditional-rendering.html) pages. Since we don't have a registeration API available yet, [stub](https://en.wikipedia.org/wiki/Method_stub) the submit/save functionality. Focus on having strong form validation & functional pagination!
 
-# [REWRITING]
-
-
-
+Refer to [this schema](https://docs.google.com/document/d/1gPo9_31LTOIkPMnFt-n4zWBOg7HsOB-yEDPmuAKsM6I/edit?usp=sharing) for user input constraints. Don't forget to notify the user if an input field fails validation!
 
 ## Design Considerations
 
-Organizers are extremely busy during registration. Thus data and visualizations must be straightforward to access and understand.
-While a design mockup is given, you can take creative liberties to customize as you see fit. So don't worry about following the mockup precisely since there's a chance you could come up with a superior design. That said, don't deviate too much.
+### Responsiveness
 
-(Optional): It could prove valuable to have a section that displays the name and information for each signed in hacker. Since the number of signed in hackers could be in the hundreds, you'd want to use pagination to cycle through pages. If you opt not to use pagination, display the first ten hackers.
+### Accessibility
 
-[Design Mockup](./Front-End-Challenge-Mockup.png)
+# [REWRITING]
 
 ## Technologies
 
