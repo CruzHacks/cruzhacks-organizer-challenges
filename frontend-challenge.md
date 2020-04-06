@@ -37,7 +37,7 @@ You'll be retrieving data via HTTP GET requests to this endpoint. The endpoint f
 ```
 
 ## Application Form
-The application form consists of three [conditionally-rendered](https://reactjs.org/docs/conditional-rendering.html) pages. Since we don't have a registeration API available yet, [stub](https://en.wikipedia.org/wiki/Method_stub) the submit/save functionality. Focus on having strong form validation & functional pagination!
+The application form consists of three [conditionally-rendered](https://reactjs.org/docs/conditional-rendering.html) pages. Since we don't have a registration API available yet, [stub](https://en.wikipedia.org/wiki/Method_stub) the submit/save functionality. Focus on having strong form validation & functional pagination!
 
 Refer to [this schema](https://docs.google.com/document/d/1gPo9_31LTOIkPMnFt-n4zWBOg7HsOB-yEDPmuAKsM6I/edit?usp=sharing) for user input constraints. Don't forget to notify the user if an input field fails validation!
 
