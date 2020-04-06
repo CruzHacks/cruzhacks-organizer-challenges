@@ -26,25 +26,25 @@ You'll be retrieving data via HTTP GET requests to this endpoint. The endpoint f
   "results": [
     {
       "datetime": "11/30/2019 08:16:28",
-      "annoucement: "Check out our pre-hack workshops via Zoom!"
+      "annoucement": "Check out our pre-hack workshops via Zoom!"
     },
     {
       "datetime": "11/19/2019 14:15:31",
-      "annoucement: "Hacker application now open! Scroll below."
+      "annoucement": "Hacker application now open! Scroll below."
     },
   ]
 }
 ```
 
 ## Application Form
-The application form consists of three [conditionally-rendered](https://reactjs.org/docs/conditional-rendering.html) pages. Since we don't have a registration API available yet, [stub](https://en.wikipedia.org/wiki/Method_stub) the submit/save functionality. Focus on having strong form validation & functional pagination!
+The application form consists of three [conditionally-rendered](https://reactjs.org/docs/conditional-rendering.html) pages. Since we don't have a registration API available yet, [stub](https://en.wikipedia.org/wiki/Method_stub) the submit/save functionality. Focus on having well-tested form validation & pagination!
 
 Refer to [this schema](https://docs.google.com/document/d/1gPo9_31LTOIkPMnFt-n4zWBOg7HsOB-yEDPmuAKsM6I/edit?usp=sharing) for user input constraints. Don't forget to notify the user if an input field fails validation!
 
 ## Design Considerations
   
 ### Responsiveness
-People access our website on a variety of devices— phones, laptops, and desktops all have vastly different screen sizes, and we'd like to deliver seamless user experiences consistently. It can be a trip conceptualizing how a website metamorphoses from a phone screen to an ultrawide monitor; here's a [guide to help with that](https://www.freecodecamp.org/news/how-to-start-thinking-responsively/). Make sure your [HTML/CSS fundementals](https://www.theodinproject.com/courses/web-development-101/lessons/html-and-css-basics) are covered before you dive in!
+People access our website on a variety of devices— phones, laptops, and desktops all have vastly different screen sizes, and we'd like to deliver seamless user experiences consistently. It can be a trip conceptualizing how a website metamorphoses from a phone screen to an ultrawide monitor; here's a [guide to help with that](https://www.freecodecamp.org/news/how-to-start-thinking-responsively/). Make sure your [HTML/CSS fundementals](https://www.theodinproject.com/courses/web-development-101/lessons/html-and-css-basics) are covered before you dive in.
 
 ### Accessibility
 Inclusivity is a core mission statement at CruzHacks, which is echoed in our design goals. People interact with the Internet through many ways that are not limited to a mouse, keyboard, touchscreen, or monitor. Thankfully, [standardized solutions](https://reactjs.org/docs/accessibility.html) exist to facilitate different methods of human-computer interaction.
