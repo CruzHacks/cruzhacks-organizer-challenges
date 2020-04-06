@@ -42,10 +42,14 @@ The application form consists of three [conditionally-rendered](https://reactjs.
 Refer to [this schema](https://docs.google.com/document/d/1gPo9_31LTOIkPMnFt-n4zWBOg7HsOB-yEDPmuAKsM6I/edit?usp=sharing) for user input constraints. Don't forget to notify the user if an input field fails validation!
 
 ## Design Considerations
-
+  
 ### Responsiveness
+People access our website on a variety of devices— phones, laptops, and desktops all have vastly different screen sizes, and we'd like to deliver seamless user experiences consistently. It can be a trip conceptualizing how a website metamorphoses from a phone screen to an ultrawide monitor; here's a [guide to help with that](https://www.freecodecamp.org/news/how-to-start-thinking-responsively/). Make sure your [HTML/CSS fundementals](https://www.theodinproject.com/courses/web-development-101/lessons/html-and-css-basics) are covered before you dive in!
 
 ### Accessibility
+Inclusivity is a core mission statement at CruzHacks, which is echoed in our design goals. People interact with the Internet through many ways that are not limited to a mouse, keyboard, touchscreen, or monitor. Thankfully, [standardized solutions](https://reactjs.org/docs/accessibility.html) exist to facilitate different methods of human-computer interaction.
+
+[Here's a guide to accessability in the context of an HTML form.](https://itnext.io/form-accessibility-a-practical-guide-4062b7e2dd14)
 
 # [REWRITING]
 
