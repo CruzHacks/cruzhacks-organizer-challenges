@@ -1,40 +1,47 @@
-# CruzHacks 2020 Frontend Engineering Team Coding Challenge
+# CruzHacks 2021 Frontend Engineering Challenge
 
-Front-End engineers work closely with our UX/UI designers to develop effective user interfaces that delight and empower users. In this scenario, you're tasked with developing a hacker sign in dashboard for organizers.
+Engineers work closely with our UX/UI designers to develop user interfaces that delight and empower users. 
 
-On the first day of the hackathon, it's essential for the organizing team to know how many hackers have signed in. Other relevant information includes how many hackers have signed in who have dietary preferences, physical handicaps, or any other necessary accommodations.
 
-Data will be retrieved from a Hacker API that retrieves data from a hacker database. Your responsibility will be to develop a web page that receives data from the Hacker API and displays that data in a clear, actionable format to organizers.
-API Schema
-You'll be retrieving data via HTTP GET requests to this endpoint. Remember, it might not be important to display all the data about each hacker. Use your discretion.
+In this scenario, you're tasked with developing a dashboard that hackers can use to view announcements & register for the hackathon. The designers have conjured a mockup [here](https://www.figma.com/file/pxkqgNnVvLCZrvBP6no7Jr/Cruzhacks-Frontend-Challenge?node-id=0%3A1).
+We don't need a pixel-perfect recreation of the mockup; rather, focus on delivering a seamless user experience!
 
-## API SCHEMA AND ENDPOINT
 
-The endpoint for the hacker API is `https://cruzhacks-2020-demo-hacker-api.azurewebsites.net/api/`
+## Announcements 
+Annoucements will be requested from a [RESTful API](https://www.codecademy.com/articles/what-is-rest) that retrieves data from a database. 
+
+
+### API Schema And Endpoint
+
+You'll be retrieving data via HTTP GET requests to this endpoint. The endpoint for the API is `https://[firebase URL]/api/`
 
 **Sample Response**:
 
-`GET https://cruzhacks-2020-demo-hacker-api.azurewebsites.net/api/101`
+`GET https://[firebase URL]/api/retrieve`
 
 ```json
 {
   "code": 200,
-  "count": 1,
+  "count": 2,
   "results": [
     {
-      "_id": "5c7079d20cdc2a302145457d",
-      "index": 101,
-      "isCheckedIn": false,
-      "age": 23,
-      "name": "Tommie Meyer",
-      "email": "WinifredBall@college.edu",
-      "phone": "+1 (813) 405-3266",
-      "physicalAccommodations": false,
-      "dietaryAccommodations": false
-    }
+      "datetime": "11/30/2019",
+      "annoucement: "Check out our pre-hack workshops via Zoom!"
+    },
+    {
+      "datetime": "11/19/2019",
+      "annoucement: "Hacker application now open! Scroll below."
+    },
   ]
 }
 ```
+
+## Application Form
+
+# [REWRITING]
+
+
+
 
 ## Design Considerations
 
