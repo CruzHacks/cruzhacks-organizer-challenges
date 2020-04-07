@@ -24,11 +24,11 @@ You'll be retrieving data via HTTP GET requests to this endpoint. The endpoint f
   "code": 200,
   "count": 2,
   "results": [
-    {
+    "1" : {
       "datetime": "11/30/2019 08:16:28",
       "annoucement": "Check out our pre-hack workshops via Zoom!"
     },
-    {
+    "2" : {
       "datetime": "11/19/2019 14:15:31",
       "annoucement": "Hacker application now open! Scroll below."
     },
