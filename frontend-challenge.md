@@ -13,11 +13,11 @@ Annoucements will be requested from a [RESTful API](https://www.codecademy.com/a
 
 ### API Schema And Endpoint
 
-You'll be retrieving data via HTTP GET requests to this endpoint. The endpoint for the API is `https://[firebase URL]/api/`
+You'll be retrieving data via HTTP GET requests to this endpoint. The endpoint for the API is `https://us-central1-cruzhacks-test-challenge-65ccc.cloudfunctions.net/getDB`
 
 **Sample Response**:
 
-`GET https://[firebase URL]/api/retrieve`
+`curl https://us-central1-cruzhacks-test-challenge-65ccc.cloudfunctions.net/getDB`
 
 ```json
 {
