@@ -60,3 +60,15 @@ We will be using [ReactJS](https://reactjs.org/docs/thinking-in-react.html), a J
 [Automated testing](https://dzone.com/articles/unit-testing-in-reactjs-using-jest-and-enzyme) allows us to prove when our code works, giving a far lesser liklihood of things breaking after code is merged into the production build. React supports [Jest], a framework that can [mock functions](https://jestjs.io/docs/en/mock-functions.html) and run [unit tests](https://www.robinwieruch.de/react-testing-jest). [Enzyme](https://enzymejs.github.io/enzyme/docs/guides/jest.html) gives you better syntax to write unit tests specifically for [React components](https://reactjs.org/docs/components-and-props.html). 
 
 Here's a [straightforward guide](https://css-tricks.com/writing-tests-for-react-applications-using-jest-and-enzyme/) to testing in React with Jest and Enzyme.
+
+## Submission
+
+All done?! Don't worry if your project can't meet every guideline outlined here; we just want to see what you can do! You will have the the opportunity to learn more & hone your skills if you can show commitment to your work through this challenge.
+
+To send us your React implementation:
+* Create a [production build](https://create-react-app.dev/docs/production-build/) of your React app
+* Compress the newly-created `build` folder into a zip file; name the zip `firstLastname-frontend.zip`
+* Email it to [contact@cruzhacks.com](mailto:contact@cruzhacks.com) with the subject line `firstLastname Dev Challenge`
+We'll get back to you all a few weeks after the deadline! 
+
+If you ever have questions or need help, please reach out to us at [contact@cruzhacks.com](mailto:contact@cruzhacks.com).
