@@ -53,10 +53,10 @@ Inclusivity is a core mission statement at CruzHacks, which is echoed in our des
 
 [Here's a guide to accessability in the context of an HTML form.](https://itnext.io/form-accessibility-a-practical-guide-4062b7e2dd14)
 
-# [REWRITING]
-
 ## Technologies
 
-You can use any technologies you’re comfortable with for this project as long as dependencies are explicitly specified and setup is minimal. Our team will be using ReactJS.
+We will be using [ReactJS](https://reactjs.org/docs/thinking-in-react.html), a Javascript library that brings higher-level features to web development by abstracting away raw HTML/CSS. Please take this opportunity to familiarize yourself with this highly in-demand user interface builder! 
 
-The Github repo should include a readme with instructions on how to run your project.
+[Automated testing](https://dzone.com/articles/unit-testing-in-reactjs-using-jest-and-enzyme) allows us to prove when our code works, giving a far lesser liklihood of things breaking after code is merged into the production build. React supports [Jest], a framework that can [mock functions](https://jestjs.io/docs/en/mock-functions.html) and run [unit tests](https://www.robinwieruch.de/react-testing-jest). Meanwhile, [Enzyme](https://enzymejs.github.io/enzyme/docs/guides/jest.html) gives you better syntax to write unit tests for [React components](https://reactjs.org/docs/components-and-props.html). 
+
+Here's a [straightforward guide](https://css-tricks.com/writing-tests-for-react-applications-using-jest-and-enzyme/) to testing in React with Jest and Enzyme.
