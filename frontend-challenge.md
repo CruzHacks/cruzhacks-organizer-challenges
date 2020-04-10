@@ -69,6 +69,7 @@ To send us your React implementation:
 * Create a [production build](https://create-react-app.dev/docs/production-build/) of your React app
 * Compress the newly-created `build` folder into a zip file; name the zip `firstLastname-frontend.zip`
 * Email it to [contact@cruzhacks.com](mailto:contact@cruzhacks.com) with the subject line `firstLastname Dev Challenge`
+
 We'll get back to you all a few weeks after the deadline! 
 
 If you ever have questions or need help, please reach out to us at [contact@cruzhacks.com](mailto:contact@cruzhacks.com).
