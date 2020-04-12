@@ -56,17 +56,17 @@ Inclusivity is a core mission statement at CruzHacks, which is echoed in our des
 
 ## Technologies
 
-We will be using [ReactJS](https://reactjs.org/docs/thinking-in-react.html), a Javascript library that brings powerful features to web development by abstracting away raw HTML/CSS. Please take this opportunity to familiarize yourself with this highly in-demand user interface builder!
+We will be using [ReactJS](https://reactjs.org/docs/thinking-in-react.html), a Javascript library that enables powerful [component-based web development] (https://reactjs.org/docs/components-and-props.html) by abstracting away raw HTML/CSS. Please take this opportunity to familiarize yourself with this highly in-demand user interface builder!
 
-[Automated testing](https://dzone.com/articles/unit-testing-in-reactjs-using-jest-and-enzyme) allows us to prove functionality of our web applications piece-by-piece, giving a far lesser liklihood of things breaking after code is merged into production. React supports [Jest], a framework that can [mock functions](https://jestjs.io/docs/en/mock-functions.html) and run [unit tests](https://en.wikipedia.org/wiki/Unit_testing). [Here's a guide on using Jest](https://www.robinwieruch.de/react-testing-jest) to write a test suite in React! [Enzyme](https://enzymejs.github.io/enzyme/docs/guides/jest.html) gives you better syntax to write unit tests specifically for [React components](https://reactjs.org/docs/components-and-props.html). [Learn how they complement one another here.](https://medium.com/codeclan/testing-react-with-jest-and-enzyme-20505fec4675)
+Automated testing allows us to prove functionality of our web applications piece-by-piece, giving a far lesser liklihood of things breaking after code is merged into production. React supports [Jest], a framework that can [mock functions](https://jestjs.io/docs/en/mock-functions.html) and run [unit tests](https://en.wikipedia.org/wiki/Unit_testing). [Here's a guide on using Jest and Enzyme](https://dzone.com/articles/unit-testing-in-reactjs-using-jest-and-enzyme) to write a test suite! [Enzyme](https://enzymejs.github.io/enzyme/docs/guides/jest.html) is a companion that enables thorough testing of React components. [See how Enzyme and Jest complement one another here.](https://medium.com/codeclan/testing-react-with-jest-and-enzyme-20505fec4675)
 
 ## Submission
 
-All done?! Don't worry if your project can't meet every guideline outlined here; we just want to see what you can do! You will have the the opportunity to learn more & hone your skills if you can show commitment to your work through this challenge.
+All done?! Don't worry if you can't meet every guideline outlined here; we just want to see what you can do! You will have the the opportunity to learn more & hone your skills if you show commitment throughout this challenge.
 
 To send us your React implementation:
 
-* Create a [production build](https://create-react-app.dev/docs/production-build/) of your React app
+* Create a public Github repository with 
 * Compress the newly-created `build` folder into a zip file; name the zip `firstLastname-frontend.zip`
 * Email it to [contact@cruzhacks.com](mailto:contact@cruzhacks.com) with the subject line `firstLastname Dev Challenge`
 
