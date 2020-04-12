@@ -1,4 +1,4 @@
-# CruzHacks 2021 Backend Engineering Team Coding Challenge
+# CruzHacks 2021 Backend Engineering Challenge
 
 In this exercise, we’re asking you to create a simple REST API that supports the application portal created in the front end challenge.  
 
