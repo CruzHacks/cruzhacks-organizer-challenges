@@ -46,7 +46,7 @@ Since we don't have a registration API available yet, [stub](https://en.wikipedi
   
 ### Responsiveness
 
-People access our website on a variety of devices— phones, laptops, and desktops all have vastly different screen sizes, and we'd like to deliver seamless user experiences consistently. It can be a trip conceptualizing how a website metamorphoses from a phone screen to an ultrawide monitor; here's a [guide to help with that](https://www.freecodecamp.org/news/how-to-start-thinking-responsively/) (make sure your [HTML/CSS fundementals](https://www.theodinproject.com/courses/web-development-101/lessons/html-and-css-basics) are covered before you dive in!)
+People access our website on a variety of devices— phones, laptops, and desktops all have vastly different screen sizes, and we'd like to deliver seamless user experiences consistently. It can be a trip conceptualizing how a website metamorphoses from a phone screen to an ultrawide monitor; here's a [guide to help with that in the context of CSS](https://www.freecodecamp.org/news/how-to-start-thinking-responsively/).
 
 ### Accessibility
 
