@@ -6,9 +6,9 @@ In this exercise, we’re asking you to create a simple REST API that supports t
 
 ## Challenge
 
-Your task is to create a series of API endpoints that perform basic [CRUD (Create, Read, Update)](https://www.codecademy.com/articles/what-is-crud) operations for a simple hacker model. The hacker model is an object that contains information about hackers attending CruzHacks 2021. You are expected to create API endpoints that supports POST, PUT, and GET requests.
+Your task is to create a series of API endpoints that perform basic [CRUD (Create, Read, Update)](https://www.codecademy.com/articles/what-is-crud) operations for a simple application portal. The application database will consist of hacker documents, which stores hacker information. You are expected to create API endpoints that supports POST, PUT, and GET requests.
 
-* POST will create a hacker object in your database
+* POST will create a hacker document in your database
 * PUT will update your hacker's data
 * GET will retreieve that information and display it in your appliacation portal until it's been submitted.
 
