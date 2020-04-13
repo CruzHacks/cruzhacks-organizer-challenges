@@ -10,7 +10,7 @@ Your task is to create a series of API endpoints that perform basic [CRUD (Creat
 
 * POST will create a hacker document in your database
 * PUT will update your hacker's data
-* GET will retreieve that information and display it in your appliacation portal until it's been submitted.
+* GET will retreieve that information and display it in your appliacation portal until it's been submitted. Information should not be able to be updated once submit has been pressed.
 
 ## Database Schema
 
@@ -18,22 +18,32 @@ Your database schema should follow the application portal's fields. Form validat
 
 As mentioned, our team will be using Firebase this year, so we ask that your database also be hosted on Firebase as well. For the application portal, we will be using the [Cloud Firestore Database](https://firebase.google.com/docs/firestore).
 
+### Sample Responses
+
 Your completed program should be fully functional and provide appropriate responses when tested with actual API requests.
 
 For example, the following request:
 
-`curl -XGET -H ‘Content-Type: application/json’ http://localhost:300/hackers/1`
+`curl -X POST -H "Content-Type:applicaton/json" http://[projectID].cloudfunctions.net/getHackerInfo -d '{"firstName": "John", "lastName": "Doe:}'`
 
-Might return json similar to:
+Will create a hacker document in your hacker database with John Doe's information inside that document. It might return JSON similar to:
 
 ```json
 {
-  "name": "John Doe",
-  "id": 1,
-  "email": "john@doe.com",
+  "code": 200,
+  "message": "Succesful post to database"
+}
+
+OR
+
+{
+  "code": 400,
+  "message": "Unable to add user to database"
 }
 ```
 
 Keep in mind this is an example for one endpoint, your completed program should have enough endpoints that allow for full CRUD functionality on the hacker object.
 
-The Github repo should include a readme with instructions on how to run your project.
+## Things to Consider
+
+Testing is a
