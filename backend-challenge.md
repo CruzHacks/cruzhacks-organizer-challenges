@@ -46,4 +46,19 @@ Keep in mind this is an example for one endpoint, your completed program should 
 
 ## Things to Consider
 
-Testing is a
+As software engineers, being able to write and implement code is half the solution to a problem. Testing allows us to ensure that our code will run properly during production and allows us to catch errors before releasing our product to the public. As an addition to our REST API Backend challenge, we are asking you to not only to create and implement functions, but to test your code along the way. Using Mocha and Firebase's testing suite, we are asking you to perform [unit tests](https://firebase.google.com/docs/functions/unit-testing) that debug your functions.
+
+## Submission
+
+Don't be discouraged if you are unable to complete the challenge in its entirety. We are looking to see how, as software engineers, you tackle each problem presented to you. You will not be judged based on how much you completed, rather on the thoroughness of your work.
+
+### How To Submit
+
+* Create a public github repository containing code for your functions and your tests
+* Your Readme inside your repository should contain the necessary information that we should know regarding your project
+* Readme should also contain the links to your API endpoints so we can properly test your code
+* If you are also attempting to do the frontend challenge, please attach a link to your repository to [contact@cruzhacks.com](mailto:contact@cruzhacks.com) with the subject line `firstLastname Dev Challenge` in the same email
+
+Good luck and we'll get back to you all a few weeks after the deadline!
+
+If you ever have questions or need help, please reach out to us at [contact@cruzhacks.com](mailto:contact@cruzhacks.com).
