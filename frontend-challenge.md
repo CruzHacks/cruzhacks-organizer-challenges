@@ -36,11 +36,11 @@ You'll be retrieving data via HTTP GET requests to this endpoint. The endpoint f
 
 ## Application Form
 
-The application form consists of three [conditionally-rendered](https://reactjs.org/docs/conditional-rendering.html) pages, which contain input fields to pass data through.
+The application form consists of three [conditionally-rendered](https://reactjs.org/docs/conditional-rendering.html) pages, which contain input fields to pass data through. 
 
 [It's important to validate the **type** & **size** of any form data for practical and security reasons.](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#What_is_form_validation) Refer to [this schema](https://docs.google.com/document/d/1gPo9_31LTOIkPMnFt-n4zWBOg7HsOB-yEDPmuAKsM6I/edit?usp=sharing) for user input constraints.
 
-Since we don't have a registration API available yet, [stub](https://en.wikipedia.org/wiki/Method_stub) the submit/save functionality. Focus on having well-tested form validation & pagination!
+Since we don't have a registration API available yet, [stub](https://en.wikipedia.org/wiki/Method_stub) the submit/save functionality. Focus on having well-tested form validation & submission!
 
 ## Design Considerations
   
@@ -58,7 +58,7 @@ Inclusivity is a core mission statement at CruzHacks, which is echoed in our des
 
 We will be using [ReactJS](https://reactjs.org/docs/thinking-in-react.html), a Javascript library that enables powerful [component-based web development](https://reactjs.org/docs/components-and-props.html) by abstracting away raw HTML/CSS. Please take this opportunity to familiarize yourself with this highly in-demand user interface builder!
 
-Automated testing allows us to prove functionality of our web applications piece-by-piece, giving a far lesser liklihood of things breaking after code is merged into production. React supports [Jest], a framework that can [mock functions](https://jestjs.io/docs/en/mock-functions.html) and run [unit tests](https://en.wikipedia.org/wiki/Unit_testing). [Here's a guide on using Jest and Enzyme](https://dzone.com/articles/unit-testing-in-reactjs-using-jest-and-enzyme) to write a test suite! [Enzyme](https://enzymejs.github.io/enzyme/docs/guides/jest.html) is a companion that enables thorough testing of React components. [See how Enzyme and Jest complement one another here.](https://medium.com/codeclan/testing-react-with-jest-and-enzyme-20505fec4675)
+ReactJS supports [Jest], a testing framework that can [mock functions](https://jestjs.io/docs/en/mock-functions.html) and run [unit tests](https://en.wikipedia.org/wiki/Unit_testing). [Here's a guide on using Jest and Enzyme](https://dzone.com/articles/unit-testing-in-reactjs-using-jest-and-enzyme) to write a test suite! [Enzyme](https://enzymejs.github.io/enzyme/docs/guides/jest.html) is a companion that enables thorough testing in ReactJS. [See how Enzyme and Jest complement one another here.](https://medium.com/codeclan/testing-react-with-jest-and-enzyme-20505fec4675)
 
 ## Submission
 
