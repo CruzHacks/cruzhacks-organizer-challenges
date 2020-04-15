@@ -46,7 +46,7 @@ Keep in mind this is an example for one endpoint, your completed program should 
 
 ## Things to Consider
 
-As software engineers, being able to write and implement code is half the solution to a problem. Testing allows us to prove that our code meets expectations, so we can catch errors before shipping code to the public. Using [Mocha and Firebase's testing suite](https://firebase.google.com/docs/functions/unit-testing), we would like you to perform [unit tests](https://en.wikipedia.org/wiki/Unit_testing) that debug your functions.
+As software engineers, being able to write and implement code is half the solution to a problem. Testing allows us to prove that our code meets expectations, so we can catch errors before shipping to the public. Using [Mocha and Firebase's testing suite](https://firebase.google.com/docs/functions/unit-testing), we would like you to perform [unit tests](https://en.wikipedia.org/wiki/Unit_testing) that debug your functions.
 
 ## Submission
 
