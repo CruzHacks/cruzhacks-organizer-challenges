@@ -68,7 +68,6 @@ To send us your ReactJS implementation:
 
 * Create a public Github repo to host your React project. [If you're unfamiliar with Git, this will get you running.](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/)
 * Email a link of your repo to [contact@cruzhacks.com](mailto:contact@cruzhacks.com) with the subject line `CruzHacks Challenge - Last, First`
-  * No time for Git? Send us a zip file of your React project root directory **without the node__modules** subdirectory. Name this zip      `lastNameFirst--frontend.zip`
   
 We'll get back to you all a few weeks after the deadline!
 If you ever have questions or need help, please reach out to us at [contact@cruzhacks.com](mailto:contact@cruzhacks.com).
