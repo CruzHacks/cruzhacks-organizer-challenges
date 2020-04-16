@@ -50,7 +50,7 @@ Feel free to follow your own design style, choose your own color palette, fonts,
 
 - Your submission should be a PNG file:
   - Hero: size 1152px x 700px. 
-  - Flyer: size 3301px x 5101 px.
+  - Flyer: size 1080px x 1920 px.
 - Please credit any sources you used if you included outside graphics. 
 - If you have a portfolio or any supplemental work you wish to include in your application, please include it in your email.
 
