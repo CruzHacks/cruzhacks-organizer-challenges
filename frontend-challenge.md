@@ -1,52 +1,74 @@
-# CruzHacks 2020 Frontend Engineering Team Coding Challenge
+# CruzHacks 2021 Frontend Engineering Challenge
 
-Front-End engineers work closely with our UX/UI designers to develop effective user interfaces that delight and empower users. In this scenario, you're tasked with developing a hacker sign in dashboard for organizers.
+Engineers work closely with our UX/UI designers to develop interfaces that delight and empower users.
 
-On the first day of the hackathon, it's essential for the organizing team to know how many hackers have signed in. Other relevant information includes how many hackers have signed in who have dietary preferences, physical handicaps, or any other necessary accommodations.
+In this scenario, you're tasked with developing a dashboard that hackers can use to view announcements & register for the hackathon. The designers have conjured a mockup [here](https://www.figma.com/file/pxkqgNnVvLCZrvBP6no7Jr/Cruzhacks-Frontend-Challenge?node-id=0%3A1).
+While a design mockup is given, you may take creative liberties as you see fit during this challenge. We don't always need a pixel-perfect recreation of the mockup; rather, focus on delivering a seamless user experience!
 
-Data will be retrieved from a Hacker API that retrieves data from a hacker database. Your responsibility will be to develop a web page that receives data from the Hacker API and displays that data in a clear, actionable format to organizers.
-API Schema
-You'll be retrieving data via HTTP GET requests to this endpoint. Remember, it might not be important to display all the data about each hacker. Use your discretion.
+## Announcements
 
-## API SCHEMA AND ENDPOINT
+Annoucements will be requested from a [RESTful API](https://www.codecademy.com/articles/what-is-rest) that retrieves data from a database.
 
-The endpoint for the hacker API is `https://cruzhacks-2020-demo-hacker-api.azurewebsites.net/api/`
+### API Schema And Endpoint
+
+You'll be retrieving data via HTTP GET requests to this endpoint. The endpoint for the API is `https://us-central1-cruzhacks-test-challenge-65ccc.cloudfunctions.net/getDB`
 
 **Sample Response**:
 
-`GET https://cruzhacks-2020-demo-hacker-api.azurewebsites.net/api/101`
+`curl https://us-central1-cruzhacks-test-challenge-65ccc.cloudfunctions.net/getDB`
 
 ```json
 {
   "code": 200,
-  "count": 1,
+  "count": 2,
   "results": [
-    {
-      "_id": "5c7079d20cdc2a302145457d",
-      "index": 101,
-      "isCheckedIn": false,
-      "age": 23,
-      "name": "Tommie Meyer",
-      "email": "WinifredBall@college.edu",
-      "phone": "+1 (813) 405-3266",
-      "physicalAccommodations": false,
-      "dietaryAccommodations": false
-    }
+    "uniqueIndex1" : {
+      "datetime": "11/30/2019 08:16:28",
+      "annoucement": "Check out our pre-hack workshops via Zoom!"
+    },
+    "uniqueIndex2" : {
+      "datetime": "11/19/2019 14:15:31",
+      "annoucement": "Hacker application now open! Scroll below."
+    },
   ]
 }
 ```
 
+## Application Form
+
+The application form consists of three [conditionally-rendered](https://reactjs.org/docs/conditional-rendering.html) pages, which contain input fields to pass data through.
+
+[It's important to validate the **type** & **size** of any form data for practical and security reasons.](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#What_is_form_validation) Refer to [this schema](https://docs.google.com/document/d/1gPo9_31LTOIkPMnFt-n4zWBOg7HsOB-yEDPmuAKsM6I/edit?usp=sharing) for user input constraints.
+
+Since we don't have a registration API available yet, [stub](https://en.wikipedia.org/wiki/Method_stub) the submit/save functionality. Focus on having well-tested form validation & submission!
+
 ## Design Considerations
+  
+### Responsiveness
 
-Organizers are extremely busy during registration. Thus data and visualizations must be straightforward to access and understand.
-While a design mockup is given, you can take creative liberties to customize as you see fit. So don't worry about following the mockup precisely since there's a chance you could come up with a superior design. That said, don't deviate too much.
+People access our website on a variety of devices— phones, laptops, and desktops all have vastly different screen sizes, and we'd like to deliver seamless user experiences consistently. It can be a trip conceptualizing how a website metamorphoses from a phone screen to an ultrawide monitor; here's a [guide to help with that in the context of CSS](https://www.freecodecamp.org/news/how-to-start-thinking-responsively/).
 
-(Optional): It could prove valuable to have a section that displays the name and information for each signed in hacker. Since the number of signed in hackers could be in the hundreds, you'd want to use pagination to cycle through pages. If you opt not to use pagination, display the first ten hackers.
+### Accessibility
 
-[Design Mockup](./Front-End-Challenge-Mockup.png)
+Inclusivity is a core mission statement at CruzHacks, which is echoed in our design goals. People interact with the Internet through many ways that are not limited to a mouse, keyboard, touchscreen, or monitor. Thankfully, [standardized solutions](https://reactjs.org/docs/accessibility.html) exist to facilitate different methods of human-computer interaction.
+
+[Here's a guide to accessability in the context of an HTML form.](https://itnext.io/form-accessibility-a-practical-guide-4062b7e2dd14)
 
 ## Technologies
 
-You can use any technologies you’re comfortable with for this project as long as dependencies are explicitly specified and setup is minimal. Our team will be using ReactJS.
+We will be using [ReactJS](https://reactjs.org/docs/thinking-in-react.html), a Javascript library that enables powerful [component-based web development](https://reactjs.org/docs/components-and-props.html) by abstracting away raw HTML/CSS. Please take this opportunity to familiarize yourself with this highly in-demand user interface builder!
 
-The Github repo should include a readme with instructions on how to run your project.
+ReactJS supports [Jest](https://jestjs.io/), a testing framework that can [mock functions](https://jestjs.io/docs/en/mock-functions.html) and run [unit tests](https://en.wikipedia.org/wiki/Unit_testing). [Here's a guide on using Jest and Enzyme](https://dzone.com/articles/unit-testing-in-reactjs-using-jest-and-enzyme) to write a test suite! [Enzyme](https://enzymejs.github.io/enzyme/docs/guides/jest.html) is a companion that enables thorough testing of React components. [See how Enzyme and Jest complement one another here.](https://medium.com/codeclan/testing-react-with-jest-and-enzyme-20505fec4675)
+
+## Submission
+
+All done?! Don't worry if you can't meet every guideline outlined here; we just want to see what you can do! You will have the the opportunity to learn more & hone your skills if you show commitment throughout this challenge.
+
+To send us your ReactJS implementation:
+
+* Create a public Github repo to host your React project. [If you're unfamiliar with Git, this will get you running.](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/)
+* Email a link of your repo to [contact@cruzhacks.com](mailto:contact@cruzhacks.com) with the subject line `CruzHacks Challenge - Last, First`
+  * If you are also attempting the backend challenge, please attach a link to that second repository in the same email.
+  
+We'll get back to you all a few weeks after the deadline!
+If you ever have questions or need help, please reach out to us at [contact@cruzhacks.com](mailto:contact@cruzhacks.com).
