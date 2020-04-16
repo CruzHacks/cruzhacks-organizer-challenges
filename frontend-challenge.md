@@ -62,7 +62,7 @@ ReactJS supports [Jest](https://jestjs.io/), a testing framework that can [mock 
 
 ## Submission
 
-All done?! Don't worry if you can't meet every guideline outlined here; we just want to see what you can do! You will have the the opportunity to learn more & hone your skills if you show commitment throughout this challenge.
+All done?! Don't worry if you can't meet every guideline outlined here; we just want to see what you can do! You will have the opportunity to learn more & hone your skills if you show commitment throughout this challenge.
 
 To send us your ReactJS implementation:
 
