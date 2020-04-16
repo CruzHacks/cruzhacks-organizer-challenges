@@ -16,6 +16,10 @@ These traits are difficult to discern from a technical challenge. While high per
 
 Engineering candidates can submit either of the coding challenges, or both. Design candidates are required to complete one of the design challenges. If you're a candidate for both teams, you must submit both challenges.
 
-You must email **contact@cruzhacks.com** a link to the Github repo for your project by **May 1 (11:59 PM)**. Included in the repo's README.md file should be simple instructions on how to run your project. The email's subject line should read **CruzHacks Challenge - Last, First**.
+- **To submit:** you must email **contact@cruzhacks.com** with the subject line **Cruzhacks Challenge - Last, First**, as well as:
+  - **For engineering:** a link to the Github repo for your project. Included in the repo's README.md file should be simple instructions on how to run your project. 
+  - **For design:** your file(s) as an attachment.
 
-For more information on each team's responsibilities, please refer to [this guide](https://tinyurl.com/cruzhacks-organizer-info).
+All materials must be submitted by **Friday, May 1, at 11:59pm.**
+
+For more information on each team's responsibilities, please refer to [this guide](https://tinyurl.com/cruzhacks-organizer-info). If you have any questions, please email contact@cruzhacks.com.
