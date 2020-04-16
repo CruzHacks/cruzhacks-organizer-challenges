@@ -21,10 +21,10 @@ This is just a challenge to exercise your creative skills - have fun with it!
 
 ## Option B: Flyer
 
-* **Objective:** create a promotional flyer mock-up for CruzHacks 2021.
+* **Objective:** create a promotional flyer for CruzHacks 2021.
 
 > Posting flyers on bulletin boards and campus bus stops is a simple but surprisingly effective marketing strategy. 
-> A memorable flyer has a strong visual identity, a cohesive color scheme, and a good balance of information - 
+> A memorable flyer has a strong visual identity, a cohesive aesthetic, and a good balance of information - 
 > enough to be informative without being overwhelming. 
 
 You can find some examples of CruzHacks 2020 flyer designs in the [design assets subdirectory](./design-assets).
@@ -39,7 +39,7 @@ Your design should include:
      - [White Logo PNG](./design-assets/white-logo.png)
      - [Gradient Logo PNG](./design-assets/gradient-logo.png)
      - [Purple Logo PNG](./design-assets/purple-logo.png)
- - Location and date (TBD - feel free to fill in this year's as a placeholder)
+ - Location and date (TBD - feel free to fill in last year's as a placeholder)
  - Some indication that applications open in December
 
 We're looking for clean, eye-catching designs that represent CruzHacks, technology, inclusion, and innovation.
