@@ -23,9 +23,13 @@ This is just a challenge to exercise your creative skills - have fun with it!
 
 * **Objective:** create a promotional flyer mock-up for CruzHacks 2021.
 
-Posting flyers on bulletin boards and campus bus stops is a simple but surprisingly effective marketing strategy. 
+> Posting flyers on bulletin boards and campus bus stops is a simple but surprisingly effective marketing strategy. 
+> A memorable flyer has a strong visual identity, a cohesive color scheme, and a good balance of information - 
+> enough to be informative without being overwhelming. 
 
-### Requirements 
+You can find some examples of CruzHacks 2020 flyer designs in the [design assets subdirectory](./design-assets).
+
+## Requirements 
 
 Your design should include:
  - Title: CruzHacks 2021
@@ -40,7 +44,7 @@ Your design should include:
 
 We're looking for clean, eye-catching designs that represent CruzHacks, technology, inclusion, and innovation.
 
-For this challenge, feel free to follow your own design style, choose your own color palette, fonts, background color, etc. If you wish to use the 2019 color palette you are free to do so (#719AEB, #EBA471, #9782EA, #EB7187). We ask that you please do not copy designs already made for previous years, and that you do not work from a template.
+Feel free to follow your own design style, choose your own color palette, fonts, background color, etc. If you wish to use the 2019 color palette you are free to do so (#719AEB, #EBA471, #9782EA, #EB7187). We ask that you please do not copy designs already made for previous years, and that you do not work from a template.
 
 ## Submission
 
@@ -50,5 +54,5 @@ For this challenge, feel free to follow your own design style, choose your own c
 - Please credit any sources you used if you included outside graphics. 
 - If you have a portfolio or any supplemental work you wish to include in your application, please include it in your email.
 
-Thank you!
+Happy designing!
 
