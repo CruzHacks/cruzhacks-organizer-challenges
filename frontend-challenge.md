@@ -58,7 +58,7 @@ Inclusivity is a core mission statement at CruzHacks, which is echoed in our des
 
 We will be using [ReactJS](https://reactjs.org/docs/thinking-in-react.html), a Javascript library that enables powerful [component-based web development](https://reactjs.org/docs/components-and-props.html) by abstracting away raw HTML/CSS. Please take this opportunity to familiarize yourself with this highly in-demand user interface builder!
 
-ReactJS supports [Jest](https://jestjs.io/), a testing framework that can [mock functions](https://jestjs.io/docs/en/mock-functions.html) and run [unit tests](https://en.wikipedia.org/wiki/Unit_testing). [Here's a guide on using Jest and Enzyme](https://dzone.com/articles/unit-testing-in-reactjs-using-jest-and-enzyme) to write a test suite! [Enzyme](https://enzymejs.github.io/enzyme/docs/guides/jest.html) is a companion that enables thorough testing of React components. [See how Enzyme and Jest complement one another here.](https://medium.com/codeclan/testing-react-with-jest-and-enzyme-20505fec4675)
+ReactJS supports [Jest](https://jestjs.io/), a testing framework that can [mock functions](https://jestjs.io/docs/en/mock-functions.html) and run [unit tests](https://en.wikipedia.org/wiki/Unit_testing). [Here's a guide on using Jest and Enzyme](https://dzone.com/articles/unit-testing-in-reactjs-using-jest-and-enzyme) to write a test suite! Enzyme is a companion that enables thorough testing of React components. [See how Enzyme and Jest complement one another here.](https://medium.com/codeclan/testing-react-with-jest-and-enzyme-20505fec4675)
 
 ## Submission
 
