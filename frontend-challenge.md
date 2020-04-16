@@ -36,7 +36,7 @@ You'll be retrieving data via HTTP GET requests to this endpoint. The endpoint f
 
 ## Application Form
 
-The application form consists of three [conditionally-rendered](https://reactjs.org/docs/conditional-rendering.html) pages, which contain input fields to pass data through.
+The application form consists of three [conditionally-rendered](https://reactjs.org/docs/conditional-rendering.html) pages, which contain input fields to pass data through. 
 
 [It's important to validate the **type** & **size** of any form data for practical and security reasons.](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#What_is_form_validation) Refer to [this schema](https://docs.google.com/document/d/1gPo9_31LTOIkPMnFt-n4zWBOg7HsOB-yEDPmuAKsM6I/edit?usp=sharing) for user input constraints.
 
