@@ -66,9 +66,11 @@ All done?! Don't worry if you can't meet every guideline outlined here; we just 
 
 To send us your ReactJS implementation:
 
-* Create a public Github repo to host your React project. [If you're unfamiliar with Git, this will get you running.](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/)
-* Email a link of your repo to [contact@cruzhacks.com](mailto:contact@cruzhacks.com) with the subject line `CruzHacks Challenge - Last, First`
-  * If you are also attempting the backend challenge, please attach a link to that second repository in the same email.
+* Create a Github repo to host your React project. [If you're unfamiliar with Git, this will get you running.](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/)
+* Email a link of your repo to [contact@cruzhacks.com](mailto:contact@cruzhacks.com) with the subject line `CruzHacks Challenge - Last, First`, or [send us a zip of your Git repo](http://gitready.com/intermediate/2009/01/29/exporting-your-repository.html) 
+  * If you are also attempting the backend challenge, please attach the second repository in the same email.
+  
+  
   
 We'll get back to you all a few weeks after the deadline!
 If you ever have questions or need help, please reach out to us at [contact@cruzhacks.com](mailto:contact@cruzhacks.com).
