@@ -64,7 +64,6 @@ Don't be discouraged if you struggle with some portions of the challenge. Try yo
   * Please also submit a .txt file with your [authentication token](https://firebase.google.com/docs/firestore/use-rest-api#working_with_firebase_id_tokens) so we can review your deployed database.
   * If you are also attempting the frontend challenge, please attach a link to that second repository in the same email.
 
-
 Best of luck and we'll get back to you all a few weeks after the deadline!
 
 If you ever have questions or need help, please reach out to us at [contact@cruzhacks.com](mailto:contact@cruzhacks.com).
