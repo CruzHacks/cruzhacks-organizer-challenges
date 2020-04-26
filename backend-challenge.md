@@ -61,7 +61,7 @@ Don't be discouraged if you struggle with some portions of the challenge. Try yo
 * Create a public Github repo with your project. [If you're unfamiliar with Git, this will get you running.](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/)
   * Include a Readme with your API endpoints
 * Email a link of your repo to [contact@cruzhacks.com](mailto:contact@cruzhacks.com) with the subject line `CruzHacks Challenge - Last, First`
-  * Please also submit a .txt file with your [authentication token](https://firebase.google.com/docs/firestore/use-rest-api#working_with_firebase_id_tokens) so we can review your deployed database.
+  * Please also submit a .txt file with your [authentication token](https://firebase.google.com/docs/firestore/use-rest-api#working_with_firebase_id_tokens) **if the Firebase security rules have been left default**.
   * If you are also attempting the frontend challenge, please attach a link to that second repository in the same email.
 
 Best of luck and we'll get back to you all a few weeks after the deadline!
