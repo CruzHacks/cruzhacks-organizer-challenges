@@ -18,13 +18,17 @@ Your database schema should follow the application portal's fields. Form validat
 
 As mentioned, our team will be using Firebase this year, so we ask that your database also be hosted on Firebase as well. For the application portal, we will be using the [Cloud Firestore Database](https://firebase.google.com/docs/firestore).
 
+### Security Rules
+
+Security is something we take very seriously, especially when it comes to hacker data. Please set your [security rules](https://firebase.google.com/docs/firestore/security/get-started) to allow for authenticated users only. This means you have to pass in an authentication token when you create a request to your backend.
+
 ### Sample Responses
 
 Your completed program should be fully functional and provide appropriate responses when tested with actual API requests.
 
 For example, the following request:
 
-`curl -X POST -H "Content-Type:applicaton/json" http://[projectID].cloudfunctions.net/getHackerInfo -d '{"firstName": "John", "lastName": "Doe:}'`
+`curl -X POST -H "Content-Type:applicaton/json" -H "token:A89asbsadf88AS*9f" http://[projectID].cloudfunctions.net/getHackerInfo -d '{"firstName": "John", "lastName": "Doe:}'`
 
 Will create a hacker document in your hacker database with John Doe's information inside that document. It might return JSON similar to:
 
@@ -54,10 +58,12 @@ Don't be discouraged if you struggle with some portions of the challenge. Try yo
 
 ### How To Submit
 
-* Create a Github repo to host your React project. [If you're unfamiliar with Git, this will get you running.](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/)
-* Email a link of your repo to [contact@cruzhacks.com](mailto:contact@cruzhacks.com) with the subject line `CruzHacks Challenge - Last, First`, or [send us a zip of your Git repo](http://gitready.com/intermediate/2009/01/29/exporting-your-repository.html) 
-  * If you are also attempting the frontend challenge, please attach the second repository in the same email.
-  
+* Create a public Github repo with your project. [If you're unfamiliar with Git, this will get you running.](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/)
+  * Include a Readme with your API endpoints
+* Email a link of your repo to [contact@cruzhacks.com](mailto:contact@cruzhacks.com) with the subject line `CruzHacks Challenge - Last, First`
+  * Please also submit a .txt file with your [authentication token](https://firebase.google.com/docs/firestore/use-rest-api#working_with_firebase_id_tokens) so we can review your deployed database.
+  * If you are also attempting the frontend challenge, please attach a link to that second repository in the same email.
+
 Best of luck and we'll get back to you all a few weeks after the deadline!
 
 If you ever have questions or need help, please reach out to us at [contact@cruzhacks.com](mailto:contact@cruzhacks.com).
