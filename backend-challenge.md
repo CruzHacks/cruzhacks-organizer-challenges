@@ -61,7 +61,8 @@ Don't be discouraged if you struggle with some portions of the challenge. Try yo
 * Create a public Github repo with your project. [If you're unfamiliar with Git, this will get you running.](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/)
   * Include a Readme with your API endpoints
 * Email a link of your repo to [contact@cruzhacks.com](mailto:contact@cruzhacks.com) with the subject line `CruzHacks Challenge - Last, First`
-  * Please also submit a .txt file with your [Web API key](https://console.firebase.google.com/u/0/project/_/settings/general?pli=1).
+  * Attach a .txt file with your [Web API key](https://console.firebase.google.com/u/0/project/_/settings/general?pli=1).
+  * If you wrote unit tests, attach the JSON service account key you generated in the Google Cloud Console.
   * If you are also attempting the frontend challenge, please attach a link to that second repository in the same email.
 
 Best of luck and we'll get back to you all a few weeks after the deadline!
