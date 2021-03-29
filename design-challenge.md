@@ -1,38 +1,12 @@
-# CruzHacks 2021 Design Challenge
+# CruzHacks 2022 Design Challenge
 
-Welcome to the Design Challenge! You may complete one of the two options below. Choose your own adventure:
-* **Option A:** hero image
-* **Option B:** flyer
+Welcome to the Design Challenge! We are excited to see that you are interested in joining the CruzHacks design team. You can view the full challenge and requirements [here]().
 
-## Option A: Hero Image
-
-* **Objective:** create a hero image for the CruzHacks 2021 website. 
-
-> In web design, a hero image is a large web banner image, prominently placed 
-> on a web page, generally in the front and center. The hero image is often 
-> the first visual element a visitor encounters on the site; it presents an 
-> overview of the site's most important content. 
-
-Essentially, this is the first thing potential hackers/sponsors would see when visiting the CruzHacks website. 
-
-Here is an example of a hero we considered using for 2019: [Hero Example](./design-assets/hero-example.png)
-
-This is just a challenge to exercise your creative skills - have fun with it!
-
-## Option B: Flyer
-
-* **Objective:** create a promotional flyer for CruzHacks 2021.
-
-> Posting flyers on bulletin boards and campus bus stops is a simple but surprisingly effective marketing strategy. 
-> A memorable flyer has a strong visual identity, a cohesive aesthetic, and a good balance of information - 
-> enough to be informative without being overwhelming. 
-
-You can find some examples of CruzHacks 2020 flyer designs in the [design assets subdirectory](./design-assets).
 
 ## Requirements 
 
 Your design should include:
- - Title: CruzHacks 2021
+ - Title: CruzHacks 2022
  - The CruzHacks logo (you can use any of the provided versions or recolor it if you wish) 
      - [White Logo SVG](./design-assets/white-logo.svg)
      - [Gradient Logo SVG](./design-assets/gradient-logo.svg)
