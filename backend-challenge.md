@@ -40,12 +40,12 @@ You can use any [NoSQL](https://www.geeksforgeeks.org/introduction-to-nosql/) da
 * Create a new applicant document
 * Update an applicant document 
   * Prevent updating Email or Application Type
-  * Given a request such as `curl -X PUT -H "Content-Type:applicaton/json" -H "token:token" endpoint/update/id -d '{"firstName": "Krishna", "lastName": "Pandian"}'` should update the first name and last name only and retain previous fields
+  * Given a PUT request with the following body `{"age": 21, "major": "Computer Engineering"}` should update the given fields
 * Delete an applicant document given an id and or email
 
 ### Security Rules
 
-Security is a very serious part of being a software engineer, especially when it comes to user information. For all endpoints include authentication to ensure that only specific users are able to reach the endpoint. We don't expect a full implementation of creating and signing tokens with timeouts but we do want to see you implement some level of security within the endpoints. We recommend that you check out [jwt](https://jwt.io/) if you want to get an idea of authentication.
+Security is a very serious part of being a software engineer, especially when it comes to user information. For all endpoints include authentication to ensure that only specific users are able to reach the endpoint. We don't expect a full implementation of creating and signing tokens with timeouts but we do want to see you implement some level of security within the endpoints to ensure that only certain users can access our endpoints. We recommend that you check out [jwt](https://jwt.io/) if you want to get an idea of authentication.
 
 ### Our Testing
 
@@ -67,12 +67,12 @@ There is a lot of content within this challenge and we do expect that you have f
 
 * Create a public Github repo with your project. [If you're unfamiliar with Git, this will get you running.](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/)
 * Create a zip of your application
-* Email a link of your repo or add your zip in the email to [contact@cruzhacks.com](mailto:contact@cruzhacks.com) with the subject line `CruzHacks Challenge - Last, First`
+* Email a link of your repo or or send us a zip of your code with the file called `Last_First_CruzHacks_Backend.zip` in the email to [contact@cruzhacks.com](mailto:contact@cruzhacks.com) and cc [dev@cruzhacks.com] with the subject line `CruzHacks Challenge - Last, First`.
   * Please include any .env information necessary to run the application
-  * If you have any other sensitive files that should not be shared publicly please include in a zip
+  * If you have any other sensitive files that should not be shared in a git repo add a file called `backend_secrets.zip`
 
-* If you are also attempting the frontend challenge, please attach the second repository in the same email.
+* If you are also attempting the other challenge, please attach the other challenge in the same email.
 
 Good luck and we'll get back to you all as soon as possible! We can't wait to see what everyone here can do!
 
-If you ever have questions or need help, please reach out to us at [contact@cruzhacks.com](mailto:contact@cruzhacks.com).
+If you ever have questions or need help, please reach out to us at [contact@cruzhacks.com](mailto:contact@cruzhacks.com) or [dev@cruzhacks.com](mailto:dev@cruzhacks.com).

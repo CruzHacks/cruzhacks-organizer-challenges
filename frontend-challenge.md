@@ -30,7 +30,7 @@ You'll be retrieving data via HTTP GET requests to this endpoint. The endpoint f
 {
     "statusCode": 200,
     "message": "ok",
-    "count": 4,
+    "count": 3,
     "results": [
         {
             "description": "CruzHacks Applications are Out!",
@@ -48,24 +48,19 @@ You'll be retrieving data via HTTP GET requests to this endpoint. The endpoint f
             "link": "https://www.cruzhacks.com/",
             "dateTime": "12/1/2021 12:00 PM",
             "isLink": true
-        },
-        {
-            "description": "We'll be releasing decisions later this week, Good Luck on Finals!",
-            "dateTime": "12/15/2021 10:00 AM",
-            "isLink": false
         }
     ]
 }
 ```
 
-We can assume description, dateTime, and isLink will always appear in every request. Link is an optional field and will appear in a response if isLink is true. Please make sure to account for situations where the response code is not 200, count is 0, there are many results to render, and any network issues causing slow fetches or failure to fetch.
+We can assume description, dateTime, and isLink will always appear in every request. Link is an optional field and will appear in a response if isLink is true. Please try to account for situations where the response code is not successful and not 200, the count is 0, there are many results to render, and any issues causing slow fetches or failure to fetch.
 
 
 ## Application Form
 
 Our goal is to create an application system that will allow both hackers and volunteers/mentors/judges to apply for CruzHacks. All applicants will have the general questions and depending on whether they inputted hacker or volunteer their next questions will be different. We want to make use of conditional rendering so we aren't showing questions that are unrelated to applicants.  When dealing with any integration between a client and server it is important that we validate data on both the client and the server. Refer to [this schema](https://docs.google.com/document/d/1gPo9_31LTOIkPMnFt-n4zWBOg7HsOB-yEDPmuAKsM6I/edit?usp=sharing) for the application fields and input constraints.
 
-We won't be integrating a backend into our application but we do want to see how you would manage form data to be sent to a server. So when we press submit we want to format an object that you would use as a request body to a [HTTP POST](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST) request. You can log the body of the request if you want for simplicity but we want to see how you would design an interaction between a client and a server. The rest of the submission functionality such as changing pages/states can be stubbed to whatever you see fit.
+We won't be integrating a backend into our application but we do want to see what the data of the form is. Please include either a state that renders the json or log the form data to the console. The rest of the submission functionality such as changing pages/states can be stubbed to whatever you see fit.
   
 
 ### Technologies
@@ -90,11 +85,13 @@ To send us your implementation:
 
 * Create a Github repo to host your React project. [If you're unfamiliar with Git, this will get you running.](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/)
 * Create a zip of your application
-* Email a link of your repo to [contact@cruzhacks.com](mailto:contact@cruzhacks.com) with the subject line `CruzHacks Challenge - Last, First`, or [send us a zip of your Git repo](http://gitready.com/intermediate/2009/01/29/exporting-your-repository.html) 
-* If you are also attempting the backend challenge, please attach the second repository in the same email.
+* Email a link of your repo to [contact@cruzhacks.com](mailto:contact@cruzhacks.com) and cc [dev@cruzhacks.com] with the subject line `CruzHacks Challenge - Last, First`, or send us a zip of your code with the file called `Last_First_CruzHacks_Frontend.zip`.
+    * Please include any .env information necessary to run the application
+    * If you have any other sensitive files that should not be shared in a git repo add a file called `frontend_secrets.zip`
+
+* If you are also attempting the backend challenge, please attach the other challenge in the same email.
   
-  
-  
+
 We'll get back to you all a few weeks after the deadline!
 
 If you ever have questions or need help, please reach out to us at [contact@cruzhacks.com](mailto:contact@cruzhacks.com).
