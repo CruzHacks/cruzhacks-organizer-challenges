@@ -53,7 +53,7 @@ Your completed program should be functional and provide appropriate responses wh
 
 We will be testing your APIs using [Postman](https://www.postman.com/).
 
-As software engineers, being able to write and implement code is half the solution to a problem. Testing allows us to prove that our code meets expectations, so we can catch errors before shipping to the public. We don't want tests We would like you to perform unit tests that debug your functions. 
+As software engineers, being able to write and implement code is half the solution to a problem. Testing allows us to prove that our code meets expectations, so we can catch errors before shipping to the public. We would like you to perform unit tests that debug your functions. 
 
 ### Documentation 
 
