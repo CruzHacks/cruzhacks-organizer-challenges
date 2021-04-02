@@ -45,7 +45,7 @@ You can use any [NoSQL](https://www.geeksforgeeks.org/introduction-to-nosql/) da
 
 ### Security Rules
 
-Security is a very serious part of being a software engineer, especially when it comes to user information. For all endpoints include authentication to ensure that only specific users are able to reach the endpoint. We don't expect a full implementation of creating and signing tokens with timeouts but we do want to see you implement some level of security within the endpoints to ensure that only certain users can access our endpoints. We recommend that you check out [jwt](https://jwt.io/) if you want to get an idea of authentication.
+Security is a very serious part of being a software engineer at CruzHacks, especially when it comes to user information. For all endpoints include authentication to ensure that only specific users are able to reach the endpoint. We don't expect a full implementation of creating and signing tokens with timeouts but we do want to see you implement some level of security within the endpoints to ensure that only certain users can access our endpoints. We recommend that you check out [jwt](https://jwt.io/) if you want to get an idea of authentication.
 
 ### Our Testing
 
@@ -53,15 +53,15 @@ Your completed program should be functional and provide appropriate responses wh
 
 We will be testing your APIs using [Postman](https://www.postman.com/).
 
-As software engineers, being able to write and implement code is half the solution to a problem. Testing allows us to prove that our code meets expectations, so we can catch errors before shipping to the public. We would like you to perform unit tests that debug your functions. 
+As software engineers, being able to write and implement code is half the solution to a problem. Testing allows us to prove that our code meets expectations and we can catch errors before shipping to the public. We would like you to perform unit tests that debug your functions. 
 
 ### Documentation 
 
-Documentation is extremely important as we are designing applications that should be able to used for future development teams. Your code should be easy to read so consistent naming conventions, comments in your code, and modularity. Please include, in a README, thorough instructions on how to run your application, response schemas, why did you design your application the way you did, what went well, what didn't go well, and what things you could have done better.
+Documentation is extremely important as we are designing applications that should be able to used for future development teams. Your code should be easy to read so consistent naming conventions, comments in your code, and modularity are needed. Please include, in a README, thorough instructions on how to run your application, response schemas, why did you design your application the way you did, what went well, what didn't go well, and what things you could have done better.
 
 ## Submission
 
-There is a lot of content within this challenge and we do expect that you have functionality for a good chunk of this challenge. We don't expect this every requirement and recommendation to be completed but we want to see what you can do so don't worry if you can't complete the entire challenge. Try your best to take on each part of this challenge. We are looking for developers who are thinking about their design and are willing to take on these challenges. 
+There is a lot of content within this challenge and we do expect that you have functionality for a good chunk of this challenge. We don't expect every requirement and recommendation to be completed but we want to see what you can do so don't worry if you can't complete the entire challenge. Try your best to take on each part of this challenge. We are looking for developers who are thinking about their design and are willing to take on these challenges. 
 
 ### How To Submit
 
