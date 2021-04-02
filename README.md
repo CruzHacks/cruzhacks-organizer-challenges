@@ -22,4 +22,4 @@ Engineering candidates can submit either of the coding challenges, or both. Desi
 
 All materials must be submitted by **April 30 11:59PM**
 
-For more information on each team's responsibilities, please refer to [this guide](tinyurl.com/new-organizer-info). If you have any questions, please email contact@cruzhacks.com.
+For more information on each team's responsibilities, please refer to [this guide](https://tinyurl.com/new-organizer-info). If you have any questions, please email contact@cruzhacks.com.
