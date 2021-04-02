@@ -1,7 +1,7 @@
 # CruzHacks Organizer Technical Challenges
 
 Thank you for applying for the CruzHacks 2022 organizing team. We're excited by the possibility of working with you!  
-* Please make sure to complete the [organizer application form](https://tinyurl.com/cruzhacks-organizer-app) by **April 23 11:59PM**.
+* Please make sure to complete the [organizer application form]( https://forms.gle/x5fd5SeR5D65XBVv6) by **April 23 11:59PM**.
 * Challenge materials are due on **April 30 11:59PM**. Our team will review your submissions after deadline and will let you know what to expect moving forward.
 
 ## Purpose
@@ -22,4 +22,4 @@ Engineering candidates can submit either of the coding challenges, or both. Desi
 
 All materials must be submitted by **April 30 11:59PM**
 
-For more information on each team's responsibilities, please refer to [this guide](https://tinyurl.com/cruzhacks-organizer-info). If you have any questions, please email contact@cruzhacks.com.
+For more information on each team's responsibilities, please refer to [this guide](https://tinyurl.com/new-organizer-info). If you have any questions, please email contact@cruzhacks.com.
