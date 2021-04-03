@@ -14,7 +14,7 @@ ____
 
 
 ### Updates
-
+* Link to the Schema has been updated Correctly for frontend challenge
 
 ____
 
@@ -58,7 +58,7 @@ We can assume description, dateTime, and isLink will always appear in every requ
 
 ## Application Form
 
-Our goal is to create an application system that will allow both hackers and volunteers/mentors/judges to apply for CruzHacks. All applicants will have the general questions and depending on whether they inputted hacker or volunteer their next questions will be different. We want to make use of conditional rendering so we aren't showing questions that are unrelated to applicants.  When dealing with any integration between a client and server it is important that we validate data on both the client and the server. Refer to [this schema](https://docs.google.com/document/d/1gPo9_31LTOIkPMnFt-n4zWBOg7HsOB-yEDPmuAKsM6I/edit?usp=sharing) for the application fields and input constraints.
+Our goal is to create an application system that will allow both hackers and volunteers/mentors/judges to apply for CruzHacks. All applicants will have the general questions and depending on whether they inputted hacker or volunteer their next questions will be different. We want to make use of conditional rendering so we aren't showing questions that are unrelated to applicants.  When dealing with any integration between a client and server it is important that we validate data on both the client and the server. Refer to [this schema](https://docs.google.com/document/d/1_sfDZU1M_3VnejPx7pqxIdOLxWbW_DZVOmeB4UrA3q4/edit) for the application fields and input constraints.
 
 We won't be integrating a backend into our application but we do want to see what the data of the form is. Please include either a state that renders the json or log the form data to the console. The rest of the submission functionality such as changing pages/states can be stubbed to whatever you see fit.
   
