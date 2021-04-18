@@ -14,8 +14,7 @@ ____
 
 
 ### Updates
-* Link to the Schema has been updated Correctly for frontend challenge
-
+* To reduce the amount of work required for the challenge, we are making the fetching requirements easier so you can assume that you will get the same successful response each time but please note latency may vary from each fetch. (4/17/21)
 ____
 
 ## API Schema And Endpoint
@@ -53,7 +52,7 @@ You'll be retrieving data via HTTP GET requests to this endpoint. The endpoint f
 }
 ```
 
-We can assume description, dateTime, and isLink will always appear in every request. Link is an optional field and will appear in a response if isLink is true. Please try to account for situations where the response code is not successful and not 200, the count is 0, there are many results to render, and any issues causing slow fetches or failure to fetch.
+We can assume description, dateTime, and isLink will always appear in every request. Link is an optional field and will appear in a response if isLink is true. 
 
 
 ## Application Form

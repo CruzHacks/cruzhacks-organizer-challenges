@@ -11,7 +11,7 @@ ____
 
 
 ### Updates
-
+* To reduce the amount of work for the backend challenge we are removing the requirement to include unit tests and authentication. If you have spare time I would still recommend looking into these tools. In industry, it is important that everything is well tested and built securely. (4/17/21)
 ____
 
 ## Challenge
@@ -43,11 +43,11 @@ You can use any [NoSQL](https://www.geeksforgeeks.org/introduction-to-nosql/) da
   * Given a PUT request with the following body `{"age": 21, "major": "Computer Engineering"}` should update the given fields
 * Delete an applicant document given an id and or email
 
-### Security Rules
+### Security Rules (Optional)
 
 Security is a very serious part of being a software engineer at CruzHacks, especially when it comes to user information. For all endpoints include authentication to ensure that only specific users are able to reach the endpoint. We don't expect a full implementation of creating and signing tokens with timeouts but we do want to see you implement some level of security within the endpoints to ensure that only certain users can access our endpoints. We recommend that you check out [jwt](https://jwt.io/) if you want to get an idea of authentication.
 
-### Our Testing
+### Our Testing (Optional)
 
 Your completed program should be functional and provide appropriate responses when tested with actual API requests. It's your choice on how you want to implement the response format, just ensure you are providing enough information that if a client wanted to use your program they would know whether it succeeded or not and what errors may have occurred. 
 
