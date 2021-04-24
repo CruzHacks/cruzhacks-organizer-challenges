@@ -15,6 +15,7 @@ ____
 
 ### Updates
 * To reduce the amount of work required for the challenge, we are making the fetching requirements easier so you can assume that you will get the same successful response each time but please note latency may vary from each fetch. (4/17/21)
+* Updating the deadline for applications to 4/30/21 11:59PM for general applications and 5/7/21 11:59PM for technical challenges. (4/23/21)
 ____
 
 ## API Schema And Endpoint

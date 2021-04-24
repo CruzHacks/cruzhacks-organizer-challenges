@@ -9,9 +9,12 @@ Any updates, general questions, and additional notes will be listed here and I w
 ____
 ### FAQ
 
+* Can we use SQL or any SQL related database?
+  * You may use SQL if you would like but again we would really like to see your ablity to use a NoSQL database since that is what we will be using for CruzHacks 2022.
 
 ### Updates
 * To reduce the amount of work for the backend challenge we are removing the requirement to include unit tests and authentication. If you have spare time I would still recommend looking into these tools. In industry, it is important that everything is well tested and built securely. (4/17/21)
+* Updating the deadline for applications to 4/30/21 11:59PM for general applications and 5/7/21 11:59PM for technical challenges. (4/23/21)
 ____
 
 ## Challenge
