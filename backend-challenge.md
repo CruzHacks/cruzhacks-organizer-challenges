@@ -56,6 +56,19 @@ Documentation is an incredibly important part of being a developer. You want to 
 
 We don't have a specific coding style for this challenge so feel free to use your own. However, we do want you to make your naming scheme as consistent as consistent as possible. For example, variables follow snake_case while functions follow PascalCase, the choice is up to you of course. In addition, we will be looking for modularity of code. It should be quick and easy to make adjustments to your code if necessary, so try and break up your code wherever you see fit.
 
-## Final Notes
+## Submission
 
 We understand that this is quite a bit, especially to fit into your busy college lives. That said, we do want to see as many specifications completed as possible. While we are looking for functionality, we are also looking for mindful developers that take care in developing their applications with maintability in mind. 
+
+
+### How to Submit
+
+To send us your application:
+* Create a Github repo to host your application. [If you're unfamiliar with Git, this will get you running.](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/)
+* Create a zip of your application
+* Email a link of your repo to [contact@cruzhacks.com](mailto:contact@cruzhacks.com) and cc [dev@cruzhacks.com] with the subject line `CruzHacks Challenge - Last, First`, or send us a zip of your code with the file called `Last_First_CruzHacks_Backend.zip`.
+    * Please include any .env information necessary to run the application
+    * Please **DO NOT** include any node_modules folder in your repo, just the package.json and package-lock.json should be fine.
+    * If you have any other sensitive files that should not be shared in a git repo add a file called `backend_secrets.zip`
+
+* If you are also attempting the frontend challenge, please attach the other challenge in the same email.
