@@ -36,7 +36,15 @@ Feel free to add a delete option as well which would:
 * DELETE by ID
 * DELETE by email
 
-### Documentation 
+## Security (optional)
+
+It's important to make sure our endpoints are not able to be accessed by unauthorized users. We suggest looking into [JWTs](https://jwt.io/introduction) to securing your endpoints. We will most likely be using Auth0 to develop our security for our endpoints this year, but many databases have their own built in JWT APIs. In Firebase, for example, they are known as tokens.
+
+## Unit Testing (optional)
+
+In a CI/CD environment, it is very likely we will make changes to our architecture. However, it is important that any change we do does not affect endpoints that only exist without good reason. For this reason, we suggest looking into unit testing each of your endpoints for the functionality they should provide (Mostly Responses). If you are working in Node.js, we will be using Jest and Supertest to test our endpoints.
+
+## Documentation 
 
 Documentation is an incredibly important part of being a developer. You want to create your program so that any other developer can understand what your program does at a glance. For this challenge we **strongly recommend** you fulfill as many of the documentation standards we give below:
 
