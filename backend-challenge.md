@@ -1,81 +1,61 @@
-# CruzHacks 2022 Backend Engineering Challenge
-
-In this exercise, we’re asking you to create a [REST API](https://restfulapi.net/) that supports the application portal created in the frontend challenge.  
-
-## Notes
-
-Any updates, general questions, and additional notes will be listed here and I will update this section throughout the challenge. While unrealistic for any changes in the challenge description, if there are changes don't worry if your application is based on older specifications.
-
-____
-### FAQ
-
-* Can we use SQL or any SQL related database?
-  * You may use SQL if you would like but again we would really like to see your ablity to use a NoSQL database since that is what we will be using for CruzHacks 2022.
-
-### Updates
-* To reduce the amount of work for the backend challenge we are removing the requirement to include unit tests and authentication. If you have spare time I would still recommend looking into these tools. In industry, it is important that everything is well tested and built securely. (4/17/21)
-* Updating the deadline for applications to 4/30/21 11:59PM for general applications and 5/7/21 11:59PM for technical challenges. (4/23/21)
-____
+# CruzHacks 2023 Backend Engineering Challenge
 
 ## Challenge
 
-Your task is to create a series of API endpoints that perform basic [CRUD (Create, Read, Update, Delete)](https://www.codecademy.com/articles/what-is-crud) operations for a simple application portal. The application database will consist of applicant documents, which stores applicant information. You will need to create endpoints that support GET, PUT, POST, and DELETE requests. 
+In this challenge, you will create a REST API that will support GET, POST, and PATCH operations for applicants in a database. In order to build this, please follow [this schema](https://docs.google.com/document/d/1BgSQSDng0lSiNozgYCiJHzBA3ezg9MRalg9fIrSapbU/edit?usp=sharing)  when creating your repository
 
-* GET will be used to retrieve information on applicants in your database
-* POST will create a new submission document in your database
-* PUT will update a submission document in your database
-* DELETE will delete a submission document in your database
+Our testing will be done using Postman, so we recommend you use this to format the request bodies for your documentation.
 
-You can use any programming language you want, we **recommend** that you use a [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) or [Typescript](https://www.typescriptlang.org/). In the past we've deployed our APIs through [firebase cloud functions](https://firebase.google.com/docs/functions). Javascript is also extremely high powered and provides a lot of tools for quick development.
+## Technology
 
-## Database Schema
+You can use any language and database you'd like provided you document how to setup and run your server in your README. This year we will be using Firebase and Typescript Node.js to write our backend so we **recommend** you use this stack. JavaScript/TypeScript is really easy to learn and allows for really fast development of your API.
 
-Your database schema should follow the application portal's fields. When validating data both the client and server should integrate some validation. Please refer to this [schema](https://docs.google.com/document/d/1_sfDZU1M_3VnejPx7pqxIdOLxWbW_DZVOmeB4UrA3q4/edit#) when creating your database.
+## GET Request
 
-You can use any [NoSQL](https://www.geeksforgeeks.org/introduction-to-nosql/) database you want. We **strongly recommend** Firebase but again you can use whatever NoSQL database you feel best with.
+The GET Request should satisfy the following requirements:
 
-## Endpoint Functionality
+* GET applicant by email
+* GET applicant by ID in database
 
-* Get all the applicants
-* Get an applicant by a specific document id and or email
-* Get all hackers
-* Get all volunteers
-* Create a new applicant document
-* Update an applicant document 
-  * Prevent updating Email or Application Type
-  * Given a PUT request with the following body `{"age": 21, "major": "Computer Engineering"}` should update the given fields
-* Delete an applicant document given an id and or email
+## POST Request
 
-### Security Rules (Optional)
+The POST Request should satisfy the following requirements:
 
-Security is a very serious part of being a software engineer at CruzHacks, especially when it comes to user information. For all endpoints include authentication to ensure that only specific users are able to reach the endpoint. We don't expect a full implementation of creating and signing tokens with timeouts but we do want to see you implement some level of security within the endpoints to ensure that only certain users can access our endpoints. We recommend that you check out [jwt](https://jwt.io/) if you want to get an idea of authentication.
+* POST using schema described above
 
-### Our Testing (Optional)
+## PATCH Request
 
-Your completed program should be functional and provide appropriate responses when tested with actual API requests. It's your choice on how you want to implement the response format, just ensure you are providing enough information that if a client wanted to use your program they would know whether it succeeded or not and what errors may have occurred. 
+The PATCH Request should satisfy the following requirements:
 
-We will be testing your APIs using [Postman](https://www.postman.com/).
+* Using an email, PATCH any field in the Schema EXCEPT the email and Applicant Type
 
-As software engineers, being able to write and implement code is half the solution to a problem. Testing allows us to prove that our code meets expectations and we can catch errors before shipping to the public. We would like you to perform unit tests that debug your functions. 
+## DELETE (optional)
 
-### Documentation 
+Feel free to add a delete option as well which would:
 
-Documentation is extremely important as we are designing applications that should be able to used for future development teams. Your code should be easy to read so consistent naming conventions, comments in your code, and modularity are needed. Please include, in a README, thorough instructions on how to run your application, response schemas, why did you design your application the way you did, what went well, what didn't go well, and what things you could have done better.
+* DELETE by ID
+* DELETE by email
 
-## Submission
+## Security (optional)
 
-There is a lot of content within this challenge and we do expect that you have functionality for a good chunk of this challenge. We don't expect every requirement and recommendation to be completed but we want to see what you can do so don't worry if you can't complete the entire challenge. Try your best to take on each part of this challenge. We are looking for developers who are thinking about their design and are willing to take on these challenges. 
+It's important to make sure our endpoints are not able to be accessed by unauthorized users. We suggest looking into [JWTs](https://jwt.io/introduction) to securing your endpoints. We will most likely be using Auth0 to develop our security for our endpoints this year, but many databases have their own built in JWT APIs. In Firebase, for example, they are known as tokens.
 
-### How To Submit
+## Unit Testing (optional)
 
-* Create a public Github repo with your project. [If you're unfamiliar with Git, this will get you running.](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/)
-* Create a zip of your application
-* Email a link of your repo or or send us a zip of your code with the file called `Last_First_CruzHacks_Backend.zip` in the email to [contact@cruzhacks.com](mailto:contact@cruzhacks.com) and cc [dev@cruzhacks.com] with the subject line `CruzHacks Challenge - Last, First`.
-  * Please include any .env information necessary to run the application
-  * If you have any other sensitive files that should not be shared in a git repo add a file called `backend_secrets.zip`
+In a CI/CD environment, it is very likely we will make changes to our architecture. However, it is important that any change we do does not affect endpoints that only exist without good reason. For this reason, we suggest looking into unit testing each of your endpoints for the functionality they should provide (Mostly Responses). If you are working in Node.js, we will be using Jest and Supertest to test our endpoints.
 
-* If you are also attempting the other challenge, please attach the other challenge in the same email.
+## Documentation 
 
-Good luck and we'll get back to you all as soon as possible! We can't wait to see what everyone here can do!
+Documentation is an incredibly important part of being a developer. You want to create your program so that any other developer can understand what your program does at a glance. For this challenge we **strongly recommend** you fulfill as many of the documentation standards we give below:
 
-If you ever have questions or need help, please reach out to us at [contact@cruzhacks.com](mailto:contact@cruzhacks.com) or [dev@cruzhacks.com](mailto:dev@cruzhacks.com).
+* Consistent naming scheme for variables
+* Comment functionality of all your functions or anything that is not obvious at first sight
+* Create a README that explains how to use your endpoints (How to run your application, and an example of your Schema and usage of your endpoints)
+
+## Style
+
+We don't have a specific coding style for this challenge so feel free to use your own. However, we do want you to make your naming scheme as consistent as consistent as possible. For example, variables follow snake_case while functions follow PascalCase, the choice is up to you of course. In addition, we will be looking for modularity of code. It should be quick and easy to make adjustments to your code if necessary, so try and break up your code wherever you see fit.
+
+## Final Notes
+
+We understand that this is quite a bit, especially to fit into your busy college lives. That said, we do want to see as many specifications completed as possible. While we are looking for functionality, we are also looking for mindful developers that take care in developing their applications with maintability in mind. 
