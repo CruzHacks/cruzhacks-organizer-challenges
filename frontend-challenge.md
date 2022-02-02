@@ -1,9 +1,9 @@
-# CruzHacks 2021 Frontend Engineering Challenge
+# CruzHacks 2023 Frontend Engineering Challenge
 
 Engineers work closely with our UX/UI designers to develop interfaces that are visually appealing and accessible to users.
 
-For this challenge you will be developing a mock of the following website. We have designed a mockup [here](https://www.figma.com/file/aayZoTtxjGVvMPrjnvUEEi/Cruzhacks-Frontend-Challenge-2022?node-id=0%3A1) for you to use.
-While a design is given, you may take creative liberties wherever you see fit during this challenge. Don't worry about mimicing every detail but we want to see your ability to replicate styles through jsx and css.
+For this challenge you will be developing a mock of the following website. We have designed a mockup [here](https://www.figma.com/file/CJf6HOwmk8kFCPr0pUanyf/CruzHacks-Frontend-Challenge-2023?node-id=0%3A1) for you to use.
+While a design is given, you may take creative liberties wherever you see fit during this challenge. Don't worry about mimicking every detail but we want to see your ability to replicate styles through jsx and css.
 
 ## Notes
 
@@ -12,53 +12,79 @@ Any updates, general questions, and additional notes will be listed here and I w
 ____
 ### FAQ
 
-
+____
 ### Updates
-* To reduce the amount of work required for the challenge, we are making the fetching requirements easier so you can assume that you will get the same successful response each time but please note latency may vary from each fetch. (4/17/21)
-* Updating the deadline for applications to 4/30/21 11:59PM for general applications and 5/7/21 11:59PM for technical challenges. (4/23/21)
 ____
 
 ## API Schema And Endpoint
 
-Annoucements will be requested from a [RESTful API](https://www.codecademy.com/articles/what-is-rest) that retrieves data from a database.
+The Schedule will be requested from a [RESTful API](https://www.codecademy.com/articles/what-is-rest) that retrieves data from a "database".
 
-You'll be retrieving data via HTTP GET requests to this endpoint. The endpoint for the API is `https://cruzhacks22-organizer-endpoint.herokuapp.com/api/announcements`.
+You'll be retrieving data via HTTP GET requests to this endpoint. The endpoint for the API is `https://cruzhacks23-organizer-endpoint.herokuapp.com/api/schedule`.
 
 **Sample Response**:
 
 ```json
 {
     "statusCode": 200,
-    "message": "ok",
+    "message": "OK",
     "count": 3,
     "results": [
-        {
-            "description": "CruzHacks Applications are Out!",
-            "link": "https://www.cruzhacks.com/",
-            "dateTime": "11/1/2021 11:00 AM",
-            "isLink": true
-        },
-        {
-            "description": "Applications will close in a week, Have a Happy Thanksgiving!",
-            "dateTime": "11/24/2021 08:30 PM",
-            "isLink": false
-        },
-        {
-            "description": "Applications are Closing Tonight! at 11:59PM",
-            "link": "https://www.cruzhacks.com/",
-            "dateTime": "12/1/2021 12:00 PM",
-            "isLink": true
-        }
+      {
+        "date": "Friday, January 13, 2023",
+        "events": [
+          { "name": "Swag Distribution Starts", "time": "3:00 PM", "clickable": false },
+          { "name": "Event Begins", "time": "5:00 PM", "clickable": false },
+          { "name": "Swag Distribution Ends", "time": "", "clickable": false },
+          { "name": "Opening Ceremony", "time": "7:00 PM", "clickable": false },
+          { "name": "Hacking Begins", "time": "9:00 PM", "clickable": false },
+          { "name": "Resume/Cover Letter", "time": "10:00 PM", "clickable": true },
+          { "name": "MLH Event: Bob Ross Painting", "time": "", "clickable": true },
+          { "name": "Equity In Tech", "time": "10:45 PM", "clickable": true },
+        ],
+      },
+      {
+        "date": "Saturday, January 14, 2023",
+        "events": [
+          {
+            "name": "Adding a Backend and Database to Your App in 3 Lines",
+            "time": "9:00 AM",
+            "clickable": false
+          },
+          { "name": "Intro to Algorithm / Applications", "time": "10:00 AM", "clickable": true },
+          { "name": "Tech Interviews", "time": "", "clickable": true },
+          { "name": "Intro to Github", "time": "11:00 AM", "clickable": true },
+          { "name": "Swag Distribution Starts", "time": "", "clickable": false },
+          { "name": "What Could Go Wrong", "time": "", "clickable": true },
+          { "name": "Basics of HTML", "time": "12:00 PM", "clickable": true },
+          { "name": "Intro to UI Design", "time": "1:00 PM", "clickable": true },
+          { "name": "Android Development", "time": "2:00 PM", "clickable": true },
+          { "name": "Swag Distribution Ends", "time": "", "clickable": false },
+          { "name": "Intro to Python", "time": "3:00 PM", "clickable": true },
+          { "name": "Intro to React", "time": "4:00 PM", "clickable": true },
+          { "name": "Environmental Innovation Guided Discussion", "time": "", "clickable": true },
+          { "name": "MLH Event: Security Challenge", "time": "5:30 PM", "clickable": true },
+        ],
+      },
+      {
+        "date": "Sunday, January 15, 2023",
+        "events": [
+          { "name": "Project Submissions", "time": "10:00 AM", "clickable": false },
+          { "name": "Judging Begins", "time": "11:30 AM", "clickable": false },
+          { "name": "Closing Ceremony", "time": "2:00 PM", "clickable": false },
+          { "name": "End of Event", "time": "4:00 PM", "clickable": false },
+        ],
+      },
     ]
 }
 ```
+Where date refers to the date of event, events refer to all events in that day at a given time and clickable denotes a workshop that one can register for.
 
-We can assume description, dateTime, and isLink will always appear in every request. Link is an optional field and will appear in a response if isLink is true. 
+You may expect the data returned from your fetch will remain the same each time. **Please Note** The endpoint is rate-limited and will only fulfill **100** requests per **15 minute** window.
 
+## Schedule Component
 
-## Application Form
-
-Our goal is to create an application system that will allow both hackers and volunteers/mentors/judges to apply for CruzHacks. All applicants will have the general questions and depending on whether they inputted hacker or volunteer their next questions will be different. We want to make use of conditional rendering so we aren't showing questions that are unrelated to applicants.  When dealing with any integration between a client and server it is important that we validate data on both the client and the server. Refer to [this schema](https://docs.google.com/document/d/1_sfDZU1M_3VnejPx7pqxIdOLxWbW_DZVOmeB4UrA3q4/edit) for the application fields and input constraints.
+Our goal is to create a schedule component for the day of event that will allow hackers to register for workshop events. The schedule data shall be retrieved from the endpoint provided above. Notice the json field titled 'clickable'. This is a boolean value denoting whether or not one will be able to register to the event. The schedule should render in chronological order and function with a forward and back button. If the event is clickable, the user should be able to click the title of the event and fill out a form to register to the event. While in reality we would like to exclude the functionality of event registration from the general public and include it for authenticated users; for the purpose of this challenge a simple form will suffice. Refer to [this schema](https://docs.google.com/document/d/1GNlmQF0WM7WvYZaqTvRlzzYtBcdeIh5jNqP-TZhTYl4/edit?usp=sharing) for the registration fields and input constraints. When dealing with any integration between a client and server it is important that we validate data on both the client and the server. 
 
 We won't be integrating a backend into our application but we do want to see what the data of the form is. Please include either a state that renders the json or log the form data to the console. The rest of the submission functionality such as changing pages/states can be stubbed to whatever you see fit.
   
