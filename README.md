@@ -1,8 +1,8 @@
 # CruzHacks Organizer Technical Challenges
 
-Thank you for applying for the CruzHacks 2022 organizing team. We're excited by the possibility of working with you!  
-* Please make sure to complete the [organizer application form]( https://forms.gle/x5fd5SeR5D65XBVv6) by **April 30 11:59PM**.
-* Challenge materials are due on **May 7 11:59PM**. Our team will review your submissions after deadline and will let you know what to expect moving forward.
+Thank you for putting forth your candidacy for the CruzHacks 2023 organizing team. We're excited by the possibility of working with you!
+* Please make sure to complete the [organizer application form](https://forms.gle/DUoqoD1koBfcVrz29) by **March 20 11:59PM**.
+* Challenge materials are due on **March 27 11:59PM**. Our team will review your submissions after the deadline and let you know what to expect next.
 
 ## Purpose
 
@@ -12,6 +12,16 @@ There are a number of traits we look for in prospective engineers and designers.
 
 These traits are difficult to discern from a technical challenge. While high performance on coding challenges will help your application, other factors will be taken into account as well.
 
+## Instructions
+
+Please review the following documents for instructions on your challenge.
+
+- **For engineering -** one or both of the following challenges:
+  - [Backend challenge](https://github.com/CruzHacks/cruzhacks-organizer-challenges/blob/master/backend-challenge.md)
+  - [Frontend challenge](https://github.com/CruzHacks/cruzhacks-organizer-challenges/blob/master/frontend-challenge.md)  
+- **For design -** the following challenge:
+  - [Design challenge](https://github.com/CruzHacks/cruzhacks-organizer-challenges/blob/master/design-challenge.md)
+
 ## Challenge Submissions
 
 Engineering candidates can submit either of the coding challenges, or both. Design candidates are required to complete one of the design challenges. If you're a candidate for both teams, you must submit both challenges.
@@ -20,6 +30,6 @@ Engineering candidates can submit either of the coding challenges, or both. Desi
   - **For engineering:** a link to the Github repo or a zip for your project. Included in the repo's README.md file should be simple instructions on how to run your project. 
   - **For design:** your file(s) as an attachment.
 
-All materials must be submitted by **April 30 11:59PM**
+All materials must be submitted by **Sunday, March 27, at 11:59pm**
 
-For more information on each team's responsibilities, please refer to [this guide](https://tinyurl.com/new-organizer-info). If you have any questions, please email contact@cruzhacks.com.
+For more information on each team's responsibilities, please refer to [this guide](https://docs.google.com/document/d/1IrSZ0MXhROBF2kQelvLAiE24IwFqSZbzqpRMJzfQLEg/edit?usp=sharing). If you have any questions, please email contact@cruzhacks.com.
