@@ -1,12 +1,14 @@
-# CruzHacks 2022 Design Challenge
+# CruzHacks 2023 Design Challenge
 
-Welcome to the Design Challenge! We are excited to see that you are interested in joining the CruzHacks design team. You can view the full challenge and requirements [here](https://docs.google.com/document/d/1QWKN4YbIgWeMRVD34QaP4FR_C-UhYOLE0FkKWdSU4og/edit).
+Welcome to the Design Challenge! We are excited to see that you are interested in joining the CruzHacks design team. 
+
+**You can view the full challenge and requirements [here](https://docs.google.com/document/d/1R3MMPU6uBRGvO5PeoMpYtWHbP8fZS_VWHHdZRYzPyA0/edit?usp=sharing).**
 
 
 ## Requirements 
 
 Your design should include:
- - Title: CruzHacks 2022
+ - Title: CruzHacks 2023
  - The CruzHacks logo (you can use any of the provided versions or recolor it if you wish) 
      - [White Logo SVG](./design-assets/white-logo.svg)
      - [Gradient Logo SVG](./design-assets/gradient-logo.svg)
@@ -21,7 +23,7 @@ We're looking for clean, eye-catching designs that represent CruzHacks, technolo
 
 ## Submission
 
-- Your submission should be a PNG file:
+- Your submission should be a PNG file.
 - Please credit any sources you used if you included outside graphics. 
 - If you have a portfolio or any supplemental work you wish to include in your application, please include it in your email.
 
