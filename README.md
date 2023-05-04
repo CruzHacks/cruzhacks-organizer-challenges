@@ -1,7 +1,7 @@
 # CruzHacks Organizer Technical Challenges
 
 Thank you for putting forth your candidacy for the CruzHacks 2024 organizing team. We're excited by the possibility of working with you!
-* Please make sure to complete the [organizer application form](https://tinyurl.com/cruzhacks2023-organizer-app) by ~~March 20 11:59PM~~ **April 2 11:59PM**.
+* Please make sure to complete the [organizer application form](https://tinyurl.com/cruzhacks2023-organizer-app) by Saturday, May 20th at 11:59PM.
 * Challenge materials are due on Saturday, May 20th at 11:59PM. Our team will review your submissions after the deadline and let you know what to expect next.
 
 ## Purpose
