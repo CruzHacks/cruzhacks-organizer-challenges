@@ -2,7 +2,7 @@
 
 Thank you for putting forth your candidacy for the CruzHacks 2024 organizing team. We're excited by the possibility of working with you!
 * Please make sure to complete the [organizer application form](https://tinyurl.com/cruzhacks2023-organizer-app) by Saturday, May 20th at 11:59PM.
-* Challenge materials are due on Saturday, May 20th at 11:59PM. Our team will review your submissions after the deadline and let you know what to expect next.
+* Challenge materials are due on Saturday, May 27th at 11:59PM. Our team will review your submissions after the deadline and let you know what to expect next.
 
 ## Purpose
 
@@ -30,6 +30,6 @@ Engineering candidates can submit either of the coding challenges, or both. Desi
   - **For engineering:** a link to the Github repo or a zip for your project. Included in the repo's README.md file should be simple instructions on how to run your project. 
   - **For design:** your file(s) as an attachment.
 
-All materials must be submitted by Saturday, May 20th at 11:59PM.
+All materials must be submitted by Saturday, May 27th at 11:59PM.
 
 For more information on each team's responsibilities, please refer to [this guide](https://tinyurl.com/cruzhacks2024-recruitment). If you have any questions, please email contact@cruzhacks.com.
